@@ -111,7 +111,7 @@ const_(4) = ny * 1.0 / (ny - 1);
 idx = [1:r];
 stat_(1)=calc_statistics(nx, ny, dat, const_, idx, G);
 
-fprintf(1,'\nPerforming resampling Brunner Munzel test in %d iterations\n',niter)
+fprintf(1,'\nPerforming random sampling Brunner Munzel test in %d iterations\n',niter)
 % percent progress indicator, every 25%
 kk = [round(niter/4) round(niter/2) round(3*niter/4) niter 0];
 jj = [25 50 75 100 NaN];
